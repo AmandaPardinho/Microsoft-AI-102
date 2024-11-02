@@ -1,3 +1,8 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.project.sourcePaths": [
+        "aprendizagem_baseada_problemas_pbl/java/desafio_1/src",
+        "modulo_1/aprendizagem_baseada_problemas_pbl/kotlin"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

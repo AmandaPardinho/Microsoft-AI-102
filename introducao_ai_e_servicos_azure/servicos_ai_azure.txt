@@ -1,9 +1,0 @@
-AZURE MACHINE LEARNING
-
--azure machine learning
-    -plataforma em nuvem nuvem para a criação e operação de soluções de aprendizado de máquina
-    -ajuda a determinar, dentro da nossa necessidade, qual o comportamento esperado com base nas informações fornecidas
--serviçoes de ia do azure trazem uma série de funcionalidades
-    -são serviços de ia pré-empacotados que podem ser integrados em soluções de software
-    -permitem que você adicione recursos de ia a aplicativos sem a necessidade de conhecimento especializado em aprendizado de máquina
-        
