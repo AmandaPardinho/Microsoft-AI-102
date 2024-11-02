@@ -1,0 +1,21 @@
+/* ENUNCIADO DESAFIOS
+ * Faça um programa que calcule e imprima o salário a ser transferido para um funcionário.
+ * Para realizar o cálculo, receba o valor bruto do salário e o adicional dos benefícios. O salário a ser transferido é calculado da seguinte forma:
+ * 
+ *      (valor bruto do salário - imposto) + adicional dos benefícios
+ * 
+ * Para calcular o percentual de imposto, utilize a seguinte tabela:
+ *  -De R$ 0,00 a R$ 1100,00: 5%
+ *  -De R$ 1100,01 a R$ 2500,00: 10%
+ *  -Acima de R$ 2500,00: 15%
+ * 
+ * Entrada
+ * A entrada consiste em vários arquivos de teste, contendo o valor bruto do salário e o adicional dos benefícios, conforme mostrado no exemplo de entrada a seguir.
+ * 
+ * Saída
+ * Para cada arquivo de entrada, há um arquivo de saída. O arquivo de saída contém um número que será a diferença entre o valor bruto do salário e o percentual de imposto mediante a faixa salarial, somado ao adicional dos benefícios. O exemplo abaixo mostra uma entrada e uma saída:
+ *  
+ * Exemplo de Entrada	       Exemplo de Saída
+ *  2000.00 (salário)              2050.00
+ *  250.00  (benefícios)              
+*/

@@ -1,0 +1,13 @@
+APIs de IA do Azure
+
+-serviços de inteligência artificial (IA) baseados na nuvem encapsulam recursos de inteligência artificial 
+    -não há necessidade de pensar em um produto como um todos, mas sim como um conjunto de serviços
+-provisionamento de recursos dos serviços de ia do azure
+-APIs REST dos serviços de ia do azure
+    -fornece essas interfaces de programação do aplicativo
+        -os clientes enviam solicitações HTTP para o ponto de extremidade do recurso (consumo do serviço)
+            -envio de dados por JSON em uma solicitação HTTP
+            -a solicitação HTTP (método) varia de acordo como serviço a ser chamado
+            -o retorno é também um JSON
+        -é possível também usar SDKs
+        

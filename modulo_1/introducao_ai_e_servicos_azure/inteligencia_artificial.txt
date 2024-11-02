@@ -1,0 +1,22 @@
+INTELIGÊNCIA ARTIFICIAL
+
+-O que é inteligência artificial?
+    -software que exibe recursos semelhantes aos humanos
+        -percepção visual
+        -análise de texto
+        -conversa
+        -tomada de decisão
+-ciência de dados => aplicação de técnicas matemáticas e estatísticas de análise de dados
+-machine learning => uso de algoritmos para treinar modelos preditivos
+-inteligência artificial => aplicativos e agentes de software inteligentes
+-é possível pensar esses conceitos como uma pirâmide
+    -ciência de dados na base
+    -machine learning no meio
+    -inteligência artificial no topo
+-considerações para uma IA responsável =>
+    -imparcialidade
+    -confiabilidade e segurança
+    -privacidade e segurança
+    -inclusão
+    -transparência
+    -responsabilidade       
