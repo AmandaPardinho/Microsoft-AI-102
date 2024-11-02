@@ -1,0 +1,40 @@
+DESCRIÇÃO 
+
+Neste desafio, seu objetivo é associar corretamente os serviços de Inteligência Artificial do Azure com suas descrições específicas. Cada serviço oferece uma funcionalidade distinta e sua tarefa será identificar o serviço correspondente à descrição fornecida na entrada. Este desafio foi criado para aprimorar seus conhecimentos sobre os recursos de IA do Azure, sem focar em uma linguagem de programação específica.
+
+Saiba mais em: https://azure.microsoft.com/pt-br/products/ai-services
+
+ENTRADA
+
+A entrada consistirá no serviço de IA no Azure para o qual você deve retornar a descrição. Nesse contexto, os seguintes serviços são considerados válidos para este desafio de código:
+
+    1 - "Azure Machine Learning"
+    2 - "Azure OpenAI Service"
+    3 - "Azure AI Vision"
+    4 - "Azure Bot Services"
+
+SAÍDA 
+
+A saída esperada é a descrição associada ao serviço fornecido como entrada. Seguem as saídas possíveis, listadas aleatoriamente, para que você possa analisar e associar corretamente considerando o template de código deste desafio:
+
+    A - "análise e interpretação de imagens e vídeos"
+    B - "criação e gerenciamento de bots inteligentes"
+    C - "plataforma para construir, treinar e implantar modelos de ml"
+    D - "integração de modelos avançados de linguagem da OpenAI"
+
+EXEMPLOS
+
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+entrada: "Azure Machine Learning"
+saída: "plataforma para construir, treinar e implantar modelos de ml"
+
+entrada: "Azure Bot Services"
+saída: "criação e gerenciamento de bots inteligentes"
+
+entrada: "Azure OpenAI Service"
+saída: "integração de modelos avançados de linguagem da OpenAI"
+
+ATENÇÃO: É extremamente importante que as entradas e saídas sejam exatamente iguais às descritas na descrição do desafio de código.
+
+Os desafios apresentados aqui têm como objetivo principal exercitar os conceitos aprendidos e proporcionar um primeiro contato com lógica de programação. Caso não tenha experiência em programação, utilize o template disponível e preencha com os conceitos aprendidos. Para resetar o template, basta clicar em “Restart Code”.

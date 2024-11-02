@@ -1,0 +1,38 @@
+DESCRIÇÃO
+
+Neste desafio, você deve associar as vantagens da Inteligência Artificial no Azure com suas respectivas definições. Cada vantagem possui uma descrição específica que você precisará identificar e retornar de acordo com a entrada fornecida. O objetivo é reforçar sua familiaridade com os principais benefícios da IA no Azure, independentemente da linguagem de programação escolhida.
+
+ENTRADA
+
+A entrada consistirá na vantagem da IA no Azure para a qual você deve retornar a descrição. Nesse contexto, as seguintes vantagens são consideradas válidas para este desafio de código:
+
+    1 - "análise preditiva"
+    2 - "processamento de linguagem natural"
+    3 - "automação"
+    4 - "personalização"
+
+SAÍDA
+
+A saída esperada é a descrição associada à vantagem fornecida como entrada. Seguem as saídas possíveis, listadas aleatoriamente, para que você possa analisar e associar corretamente considerando o template de código deste desafio:
+
+    A - "automatização de tarefas repetitivas e processos"
+    B - "oferecer experiências personalizadas aos usuários"
+    C - "habilidade de entender e gerar linguagem humana"
+    D - "capacidade de prever tendências e comportamentos futuros"
+
+EXEMPLOS
+
+Abaixo temos exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+entrada: "análise preditiva"
+saída: "capacidade de prever tendências e comportamentos futuros"
+
+entrada: "processamento de linguagem natural"
+saída: "habilidade de entender e gerar linguagem humana"
+
+entrada: "automação"
+saída: "automatização de tarefas repetitivas e processos"
+
+ATENÇÃO: É extremamente importante que as entradas e saídas sejam exatamente iguais às descritas na descrição do desafio de código.
+
+Os desafios apresentados aqui têm como objetivo principal exercitar os conceitos aprendidos e proporcionar um primeiro contato com lógica de programação. Caso não tenha experiência em programação, utilize o template disponível e preencha com os conceitos aprendidos. Para resetar o template, basta clicar em “Restart Code”.
