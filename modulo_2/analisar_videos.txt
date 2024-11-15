@@ -1,0 +1,11 @@
+ANALISAR VÍDEOS
+
+-video indexer:
+    -serviço do azure que permite extrair informações de vídeos
+    -exige aprovação (acesso limitado)
+    -pode ser usado para diversas situações além da rotulagem
+    -pode também oferecer insights personalizados
+        -treinar o reconhecimento facial a partir de imagens de amostra
+        -reconhecer termos específicos do setor/organização
+        -reconhecer marcas, produtos, empresas, projetos, etc
+        

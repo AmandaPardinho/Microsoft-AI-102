@@ -1,0 +1,25 @@
+DETECTAR ROSTOS COM A VISÃO DE IA DO AZURE
+
+-serviço de detecção facial:
+    -análise abrangente
+        -detecção facial
+        -análise de recursos faciais
+    -os princípios da ia responsável se aplicam a todos os tipos de aplicativos, mas sistemas que dependem de dados faciais podem ser problemáticos
+        -o reconhecimento facial, identificação, verificação e comparação está por trás de uma política de Acesso Limitado, exigindo que os usuários sejam aprovados pela Microsoft antes de habilitar estes recursos
+    -segurança e privacidade de dados
+        -sistemas baseados em dados faciais devem proteger a privacidade individual, garantindo que os dados pessoais identificáveis não sejam acessadaos de forma inadequada
+    -transparência
+        -garantia de que os usuários serão informados sobre como a imagem deles será usada e quem terá acesso a ela
+    imparcialidade e inclusão
+        -o reconhecimento facial não deve ser usado de uma maneira prejudicial aos indivíduos com base na aparência deles
+        -não devem tornar certas pessoas como alvo de forma injusta
+-identificação facial detectada
+    -a cada rosto detectado é atribuído um ID anônimo
+        -o ID é mantido por 24 horas
+        -pode ser usado para comparar rostos em várias imagens
+-reconhecimento facial persistente
+    -treinar um modelo de reconhecimento facial usando imagens de rostos
+        -criar um grupo de pessoas para as pessoas que se deseja identificar
+        -adicionar uma pessoa para cada indivíduos
+        -adicionar vários rostos detectados a cada pessoa (rostos persistentes)
+        -treinar o modelo

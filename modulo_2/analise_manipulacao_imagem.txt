@@ -1,0 +1,28 @@
+ENTENDENDO COMO FUNCIONA ANÁLISE E MANIPULAÇÃO DE IMAGENS NA AZURE
+
+-serviço de visão do azure 
+    -ramificação da inteligência artificial que interpreta imagens de feeds ou de vídeo
+-análise de imagem
+    -necessidade de projetar uma forma de extrair informações de imagens (todo tipo de informação)
+    -geração de legendas e tags
+    -detecção de objetos
+    -detecção de pessoas
+    -reconhecimento óptico de caracteres
+    -miniaturas com recorte inteligente
+    -remoção de plano de fundo
+    -inserções multimodais
+    -reconhecimento de produto
+-como pode ser usada:
+    -recurso autônomo da visão de ia do azure
+    -recurso multisserviço dos serviços de ia do azure
+    **alguns recursos são limitados a regiões específicas
+-apis de análise de imagens:
+    -uma única chamada de análise para recuperar recursos especificados na enumeração VisualFeatures
+        -método rest retorna a informação de acordo com a função de análise de imagem solicitada    
+    -especificar os recursos visuais que se quer analizar em uma imagem determina quais informações a resposta vai conter
+        -definição de quais tipos de dados são procurados 
+    -apis => possuem um ponto de extremidade e uma chave de recurso
+-análise de leitura (OCR):
+    -informação de documentos
+    -resulta um JSON com a informação do texto
+    

@@ -1,0 +1,13 @@
+CRIAR SOLUÇÕES DE PESQUISA VISUAL COMPUTACIONAL COM A VISÃO DE IA DO AZURE
+
+-existem alguns modelos de visão personalizada
+    -possuem funcionalidades diferentes
+    -tarefas: 
+        -classificação
+        -detecção de objetos
+        -reconhecimento de produtos
+    -necessidade de treino do modelo para uma detecção eficiente
+    -rótulos de terinamento que permitem a identificação da imagem correta
+        -não necessariamente o que deve ser detectado está sozinho em uma imagem
+        -o rótulo especificado é que vai direcionar a detecção
+    -localizam também a posição do objeto na imagem
