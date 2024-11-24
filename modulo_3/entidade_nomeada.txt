@@ -1,0 +1,13 @@
+CLASSIFICAÇÃO PERSONALIZADA E EXTRAÇÃO DA ENTIDADE NOMEADA
+
+-projetos de classificação de texto personalizados
+    -local em que se cria, treina, aprimora e implanta o modelo de classificação 
+    -também é possível usar o modelo de api rest dentro das aplicações 
+    -necessidade de se aprender sobre todo o ciclo de vida do projeto
+    -atribuição de rótulos/etiquetas aos documentos
+-necessidade de revisão constante do modelo 
+    -treinar um modelo para ensinar rótulos e entidades
+    -revisar o desempenho do modelo para determinar como melhorar o desempenho, incluindo a matriz de confusão
+    -determinar quais casos precisam ser adicionados aos seus dados de treinamento
+    -retreinar o modelo com novos dados incluídos e repetir conforme necessário
+    

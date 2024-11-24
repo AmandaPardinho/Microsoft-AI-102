@@ -1,0 +1,35 @@
+ANÁLISE DE TEXTOS
+
+-serviço de linguagem de ia do azure
+    -projetado para extrair informações de texto
+    -ajuda a otimizar afazeres do dia a dia
+    -detecção de idioma:
+        -detecta idioma do texto
+        -útil como precursor para análises adicionais que exigem uma linguagem conhecida
+        -a resposta é obtida em formato de JSON
+    -extração de frases-chave:
+        -identifica os principais pontos de discussão do texto
+        -funciona melhor com documentos acima de 5120 caracteres
+    -análise de sentimento:
+        -pontua o sentimento geral do documento e o sentimento individual da frase
+        -o sentimento é classificado em positivo, neutro ou negativo
+        -o sentimento geral do documento baseia-se em frases-chave:
+            -todas as frases são neutras = documento neutro
+            -as frases incluem positivo e neutro = documento positivo
+            -as frases incluem negativo e neutro = documento negativo
+            -as frases incluem positivo e negativo = documento misto
+    -reconhecimento da entidade nomeada:
+        -identifica entidades mencionadas no texto
+        -entidades nomeadas são agrupadas em categorias e subcategorias objetos, pessoas, locais, datas, números e quantidades
+        -a resposta é obtida em formato de JSON
+    -vinculação de identidade:
+        -usado para tirar a ambiguidade de entidades de mesmo nome
+    -resumo:
+        -pode oferecer dois tipos diferentes de resumo
+            -sumarização extrativa: produz resumo usando as frases mais importantes
+            -sumarização abstrata: produz um resumo capturando a ideia principal, mas não necessariamente usando as mesmas palavras do documento de origem
+        -pode ser personalizado por treinamento em seus próprios dados
+    -detecção de informações de identificação pessoal
+        -usado para detectar e remover informações confidenciais
+        -pode ser usado em situações como aplicação de rótulos de sensibilidade, remoção de informações para reduzir desvios e limpeza de dados para ciência de dados
+            

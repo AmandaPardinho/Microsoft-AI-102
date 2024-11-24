@@ -1,0 +1,17 @@
+CRIAÇÃO DE UMA SOLUÇÃO DE RESPOSTA À PERGUNTAS
+
+-a estratégia que funciona no contexto de chatbot é ter uma linguagem que funcione dentro do contexto, fazendo a viabilização da resposta que o usuário procura e que, caso nenhuma das alternativas funcione, direcionar a um atendente humano
+-a linguagem de inteligência artificial do azure inclui o recurso de respostas à perguntas, definindo uma base de conhecimento
+    -a base de conhecimento possui pares de perguntas e respostas que podem ser utilizadas a partir de uma entrada de linguagem natural
+        -quanto melhor a resposta à pergunta dada pelo bot e quanto menos formal ela for, passando a impressão de que se está interagindo com outra pessoa, mais humanizado é o atendimento
+        -a base também pode ser criada a partir de fontes existentes
+        -quanto melhor a base de conhecimento, melhor será a resposta do bot
+    -não há necessidade de se começar uma base do zero
+    -durante a programação do bot, há a necessidade de interação entre a área de negócios e a de desenvolvimento para que se entenda as regras de negócio por trás daquilo que se está desenvolvendo
+        -durante o desenvolvimento, deve-se sempre assumir que o usuário pode descrever um cenário para o qual não há resposta e, portanto, deve-se sempre ter a opção de se direcionar a um atendente humano
+        -deve haver uma validação deste atendimento em que o usuário chegou até o atendimento humano => 
+            -compreender o motivo pelo qual o usuário não conseguiu a resposta que procurava =>
+                -houve uma falta de alguma opção?
+                -ou realmente não havia resposta?
+            -a partir disso, deve-se fazer às alterações necessárias no sistema e atualizar a base de conhecimento
+            -a base deve ser continuamente alimentada (aprendizado ativo)

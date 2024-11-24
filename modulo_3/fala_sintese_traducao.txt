@@ -1,0 +1,25 @@
+RECONHECIMENTO DE FALA, SÍNTESE E TRADUÇÃO
+
+-serviço de fala
+    -no azure, o serviço de fala é feito por meio de duas apis rest:
+        -api de reconhecimento de fala
+        -api de conversão de texto em fala (síntese de fala - áudios de até 60 segundos)
+-linguagem de marcação de síntese de fala (SSML)        
+    -linguagem baseada em xml com opções de personalização
+        -estilos de fala (somente vozes neurais)
+        -pausas e silêncio
+        -fonemas (pronúncias fonéticas)
+        -prosódia (pitch de fala, alcance, taxa, etc)
+        -"say-as" (número, data, hora, endereço, etc)
+        -inserir fala gravada ou áudio em segundo plano
+-síntese de traduções como fala 
+    -síntese baseada em evento
+        -compatível apenas com tradução 1:1 (idioma de destino único)        
+        -especificação da voz desejada no TranslationConfig
+        -uso do evento de Sintetização para recuperar o fluxo de áudio
+        -criação de um manipulador de eventos
+        -uso do Result.GetAudio() para recuperar o fluxo de bytes
+    -síntese manual
+        -uso para vários idiomas de destino
+        -traduz para texto e usa a api de conversão de texto em fala para sintetizar cada tradução nos resultados
+        

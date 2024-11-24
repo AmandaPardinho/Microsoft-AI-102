@@ -1,0 +1,22 @@
+CRIAR UM APLICATIVO DE COMPREENSÃO DA LINGUAGEM COLOQUIAL
+
+-reconhecimento da linguagem:
+    -a liguagem que usamos varia de acordo com o interlocutor (mais formal ou mais coloquial)
+    -ao se conversar com uma máquina, é possível usar uma linguagem mais formal ou mais coloquial => 
+        -a máquina deve ser capaz de entender ambas as formas
+        -a partir da entrada enviada pelo usuário, um modelo de linguagem é usado para determinar o significado semântico (intenção do usuário)
+        -ao identificar esta intenção, o aplicativo realiza a ação apropriada
+    -o NLP (processamento de linguagem natural) requer um modelo de linguagem para interpretar a entrada do usuário
+        -identifica o modelo semântico e cria um padrão de design para a interação
+        -dentro do reconhecimento de linguagem há tópicos específicos que ajudam a identificar este tipo de serviço (NLU - reconhecimento de linguagem natural)
+        -CLU (compreensão de linguagem coloquial) é é um serviço do azure que permite a criação de um componente de linguagem natural a ser usado em um aplicativo de conversação de ponta a ponta
+            -ajuda a prever a intenção do usuário
+            -para treinar o modelo, é preciso entender as intenções e o enunciados
+                -enunciados são as frases que o usuário pode inserir para interagir com o aplicativo => definem o modelo de linguagem a ser usado
+                -intenções => representação de tarefas ou ações que o usuário deseja realizar
+            -o modelo é treinado com base em enunciados e intenções
+                -mapeia os enunciados para as intenções que atribuem o significado semântico
+            -entidades => informações específicas que o usuário fornece para realizar a tarefa
+                -são identificadas no enunciado e associadas à intenção    
+                -componentes de entidade => são pré definidos e preveem automaticamente tipos comuns de enunciados
+                

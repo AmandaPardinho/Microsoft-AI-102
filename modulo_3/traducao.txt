@@ -1,0 +1,11 @@
+TRADUZIR TEXTOS
+
+-tradução:
+    -recurso muito utilizado
+    -usa uma api rest de tradução de texto multilíngue
+        -detecção do idioma
+        -tradução de um para muitos
+        -transliteração do script
+    -tradução personalizada:
+        -cria um modelo de tradução personalizado
+        
