@@ -1,0 +1,6 @@
+IMPLEMENTAR A GERAÇÃO AUMENTADA DE RECUPERAÇÃO (RAG) COM O SERVIÇO OPENAI DO AZURE
+
+-rag:
+    -serviço de inteligência artificial do azure que permite que os desenvolvedores utilizem modelos de chat de ia que sejam compatíveis e possam referenciar informação específicas para embasar suas respostas
+    -conecta modelos pré-treinados às suas próprias fontes de dados
+    -o openai usa esses dados para capacitar a pesquisa de ia e adicionar outros blocos relevantes aos prompts

@@ -1,0 +1,17 @@
+DESENVOLVER APLICATIVOS COM O SERVIÇO OPENAI DO AZURE
+
+-o serviço de openai do azure oferece sdk's específicos de linguagem e uma api rest
+    -permitem que os desenvolvedores possam adicionar funcionalidades de ia dentro dos aplicativos, consumindo esses recursos
+    -as funcionalidades de ia generativa são fornecidas por meio de modelos
+        -modelos são de famílias diferentes, ou seja, possuem funcionalidades diferentes
+        -o modelo deve ser escolhido adequadamente e implantado na aplicação 
+        -os dados disponíveis para fazer a integração interagem com o modelo e são implantados para o ponto de extremidade do modelo
+            -modelo => preenchimento => modelo que recebe um prompt de entrada e gera um ou mais preenchimentos previstos
+            -modelo => inserção => modelo que usa a entrada e retorna uma representação de vetor dessa entrada
+            -modelo => chatcompletion => modelo recebe a entrada na forma de uma conversa de chat (as funções são especificadas na mensagem enviada) e a próxima conclusão do chat é gerada
+-sdk's específicos de linguagem estão disponíveis para uso em aplicativos (C# e Python)
+    -a estrutura do código segue um padrão semelhante para ambas as linguagens
+    -parâmetros como resposta máxima e temperatura são definidos nas opções de bate-papo
+    -são disponibilizadas versões de api síncrona e assíncrona
+    
+

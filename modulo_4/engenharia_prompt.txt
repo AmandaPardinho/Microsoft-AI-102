@@ -1,0 +1,16 @@
+APLICAR ENGENHARIA DE PROMPT COM O SERVIÇO OPENAI DO AZURE
+
+-engenharia de prompt:
+    -criação e otimização de comandos usados para melhorar os modelos de inteligência artificial
+    -se eficaz, pode aprimorar significativamente o desempenho da ia em tarefas específicas
+    -construção de prompts para:
+        -maximizar a relevância e a precisão dos preenchimentos
+        -especificar a formatação e o estilo dos preenchimentos
+        -fornecer contexto de conversa
+        -reduzir o viés e aumentar a imparcialidade
+    -quanto melhor a pergunta, melhor a resposta
+        -detalhes específicos devem ser fornecidos para obter respostas precisas
+        -pistas =>
+            -os indicadores fornecem um ponto de partida no qual os preenchimentos podem ser baseados
+            -uso de indicadores para definir o escopo e o formato da resposta
+            -sugestões são úteis ao gerar código

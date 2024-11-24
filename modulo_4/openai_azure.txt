@@ -1,0 +1,7 @@
+INTRODUÇÃO AO SERVIÇO OPENAI DO AZURE
+
+-inteligência artificial generativa:
+    -inteligência artificial => campo da cinência da computação que busca criar computadores inteligêntes que podem replicar ou exceder a inteligência humana.
+        -machine learning => subcampo da inteligência artificial que permite que os computadores aprendam a partir de dados existentes e sejam aprimorados com esses dados a fim de tomar decisôes ou fazer previsões.
+            -aprendizado profundo => técnica de machine learning em que camadas de redes neurais são usadas para processar dados e tomar decisões.
+                -inteligência artificial generativa => subcampo da inteligência artificial que se concentra em criar modelos de IA que podem gerar novos dados, como imagens, texto ou áudio a partir de prompts ou de dados existentes.
